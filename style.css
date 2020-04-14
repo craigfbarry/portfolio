@@ -1,9 +1,25 @@
 
+/*
 
+font-family: 'Homemade Apple', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Freckle Face', cursive;
+*/
 
 li:hover    {
- background-color: rgb(53, 240, 137);
+ background-color: rgb(62, 145, 99);
  color: rgb(7, 48, 1);
  font-weight: bolder;
  
 }   
+li      {
+   
+    font-family: 'Special Elite', cursive;
+    
+}
+
+#logo   {
+    color: azure;
+    font-family: 'Special Elite', cursive;
+
+}
