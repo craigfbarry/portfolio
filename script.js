@@ -11,6 +11,9 @@ $(document).ready(function () {
             projectURL:"https://craigfbarry.github.io/password-generator/"},
             {imageSource:"assets/horiseon.png",imageAlt:"horiseon",description:"Code Refactoring",
             projectURL:"https://craigfbarry.github.io/craigs_homework"},
+            {imageSource:"assets/workday-scheduler.png",imageAlt:"workday-scheduler",description:"workday-scheduler",
+            projectURL:"https://craigfbarry.github.io/day-planner"},
+
 
 
            
@@ -20,24 +23,24 @@ $(document).ready(function () {
         var headerTag = $("<header>");
         var portfolioHeader = $("<h3>");
         var portfolioContent= $("<div>");
-        //var project = $("<div>");
+        
 
 
         headerTag.addClass("row text-center text-align-middle");
         portfolioHeader.addClass("col my-4").text("Portfolio");
         $("#content").append((headerTag).append(portfolioHeader));
-        portfolioContent.addClass("row text-center");
+        portfolioContent.addClass("row text-center mb-5");
         $("#content").append(portfolioContent);
 
         for (var i=0;i<projectDetails.length;i++){
             var project = $("<div>");
-            project.addClass("col-md-6 col-lg-4 px-0 px-md-4 bt-lg-5");
-            project.html("<img src=" + projectDetails[i].imageSource + " alt=" + projectDetails[i].imageAlt +  " width=100%>" +
-            "<a href=" + projectDetails[i].projectURL + " target='_blank'><p class='pt-4 pb-5 pb-md-5'>" + projectDetails[i].description + "</p></a>");
-            
+            project.addClass("col-md-6 col-lg-4 px-0 px-md-4");
+            project.html("<a href=" + projectDetails[i].projectURL + " target='_blank'><img src=" + projectDetails[i].imageSource + " alt=" + projectDetails[i].imageAlt +  " width=100%>"
+            + "<p class='pt-4 pb-5 pb-md-5'>" + projectDetails[i].description + "</p></a>");
+
+
+
             portfolioContent.append(project);
-
-
         }
 
 
