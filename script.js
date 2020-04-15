@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     $("#resume").on("click", function(){
         $("#content").empty();
-        console.log("resume clicked");
+        $("#content").html("<embed src='assets/resume.pdf' type='application/pdf' height='1000px' width='80%'>");
     });
 
 
