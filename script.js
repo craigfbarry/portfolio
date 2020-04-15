@@ -5,7 +5,7 @@ $(document).ready(function () {
         //Clear out contents and declaration of variables before applying the projects in a loop.
         $("#content").empty();
 
-        var projectDetails = [
+        let projectDetails = [
 
             {imageSource:"assets/nasa-slack.png",imageAlt:"NASA-slack",description:"NASA/Slack API Project",
             projectURL:"https://lnxsa.com"},
@@ -21,9 +21,9 @@ $(document).ready(function () {
             projectURL:"https://craigfbarry.github.io/craigs_homework"}, 
         ];
         
-        var headerTag = $("<header>");
-        var portfolioHeader = $("<h3>");
-        var portfolioContent= $("<div>");
+        let headerTag = $("<header>");
+        let portfolioHeader = $("<h3>");
+        let portfolioContent= $("<div>");
         
         headerTag.addClass("row text-center text-align-middle");
         portfolioHeader.addClass("col my-4").text("Portfolio");
@@ -32,8 +32,8 @@ $(document).ready(function () {
         $("#content").append(portfolioContent);
 
         //For loop to append each array item.
-        for (var i=0;i<projectDetails.length;i++){
-            var project = $("<div>");
+        for (let i=0;i<projectDetails.length;i++){
+            let project = $("<div>");
             project.addClass("col-md-6 col-lg-4 px-0 px-md-4");
             project.html("<a href=" + projectDetails[i].projectURL + " target='_blank'><img src=" + projectDetails[i].imageSource + " alt=" + projectDetails[i].imageAlt +  " width=100%>"
             + "<p class='pt-4 pb-5 pb-md-5'>" + projectDetails[i].description + "</p></a>");
