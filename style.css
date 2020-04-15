@@ -23,3 +23,10 @@ li      {
     font-family: 'Special Elite', cursive;
 
 }
+
+img {    
+    filter: grayscale(100%);
+}
+img:hover {
+    filter: grayscale(0%);
+}
