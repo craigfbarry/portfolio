@@ -24,9 +24,10 @@ li      {
 
 }
 
-img {    
-    filter: grayscale(100%);
-}
-img:hover {
-    filter: grayscale(0%);
-}
+.hero-text {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    position: absolute;
+    top:20%;
+    left: 30%;
+}   

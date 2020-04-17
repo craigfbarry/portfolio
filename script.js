@@ -13,12 +13,12 @@ $(document).ready(function () {
             projectURL:"https://craigfbarry.github.io/weather-dashboard"},
             {imageSource:"assets/password-generator.png",imageAlt:"Password-Generator",description:"Password Generator",
             projectURL:"https://craigfbarry.github.io/password-generator/"},
-            {imageSource:"assets/workday-scheduler.png",imageAlt:"workday-scheduler",description:"workday-scheduler",
-            projectURL:"https://craigfbarry.github.io/day-planner"},
-            {imageSource:"assets/code-quiz.png",imageAlt:"code-quiz",description:"Code Quiz",
-            projectURL:"https://craigfbarry.github.io/code-quiz/"},
-            {imageSource:"assets/horiseon.png",imageAlt:"horiseon",description:"Code Refactoring",
-            projectURL:"https://craigfbarry.github.io/craigs_homework"}, 
+            //{imageSource:"assets/workday-scheduler.png",imageAlt:"workday-scheduler",description:"workday-scheduler",
+            //projectURL:"https://craigfbarry.github.io/day-planner"},
+            //{imageSource:"assets/code-quiz.png",imageAlt:"code-quiz",description:"Code Quiz",
+            //projectURL:"https://craigfbarry.github.io/code-quiz/"},
+            //{imageSource:"assets/horiseon.png",imageAlt:"horiseon",description:"Code Refactoring",
+            //projectURL:"https://craigfbarry.github.io/craigs_homework"}, 
         ];
         
         let headerTag = $("<header>");
