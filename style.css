@@ -31,3 +31,8 @@ li      {
     top:20%;
     left: 30%;
 }   
+
+#content {
+    background-color: rgb(19, 19, 20);
+    color: rgb(80, 207, 91);
+}

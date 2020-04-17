@@ -50,7 +50,7 @@ $(document).ready(function () {
     $("#resume").on("click", function(){
         $("#content").empty();
         let resumeContent= $("<div>");
-        resumeContent.addClass("justify-content-center my-5 py-5");
+        resumeContent.addClass("justify-content-center my-5 py-5 px-0");
         $("#content").append(resumeContent);
 
         resumeContent.html("<embed src='assets/resume.pdf' type='application/pdf' height='1000px' width='100%'>");
