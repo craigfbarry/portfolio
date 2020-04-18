@@ -29,14 +29,30 @@ li      {
 
 
 
-.hero-text {
+#hero-text1 {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    z-index:1;
+    position: absolute;
+    top:20%;
+    left: 20%;
+}   
+#hero-text2 {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    z-index:1;
+    position: relative;
+    left: 20%;
+}   
+#hero-text3 {
     font-family: 'Special Elite', cursive;
     color: white;
     z-index:1;
     position: relative;
     top:20%;
-    left: 30%;
+    left: 20%;
 }   
+
 
 #content {
     background-color: rgb(19, 19, 20);
