@@ -38,12 +38,10 @@ $(document).ready(function () {
         }
     });
 
-
+        //Embed the PDF on resume button click
 
     $("#resume").on("click", function(){
         $("#content").empty();
-        
-
         const resumeContent= $("<div>");
         resumeContent.addClass("justify-content-center my-5 py-5 px-0");
         $("#content").append(resumeContent);
@@ -51,11 +49,14 @@ $(document).ready(function () {
         resumeContent.html("<embed src='assets/resume.pdf' type='application/pdf' height='1000px' width='100%'>");
     });
 
+        //About button needs to return to anchor point on page reload from resume and portfolio page
+        
     $("#about-button").on("click", function(){
         window.location.hash = '#about';
         window.location.reload(true);
 
     });
+
 
 
 

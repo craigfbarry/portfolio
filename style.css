@@ -59,13 +59,5 @@ h2      {
 
 #content {
     background-color: rgb(19, 19, 20);
-    color: #43ca27;
-}
-
-.rounded-circle {
-    filter: grayscale();
-
-}
-.rounded-circle:hover{
-    filter: none;
+    color: #e3ece1;
 }
