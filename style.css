@@ -27,30 +27,35 @@ li      {
 
 }
 
-
-
+#hero-div1 {
+    position:relative;
+}
 #hero-text1 {
     font-family: 'Special Elite', cursive;
     color: white;
     z-index:1;
     position: absolute;
-    top:20%;
-    left: 20%;
+    top: 10%;
+    left: 50%;
 }   
+
 #hero-text2 {
     font-family: 'Special Elite', cursive;
     color: white;
     z-index:1;
-    position: relative;
+    position: absolute;
+    top:40%;
+
     left: 20%;
 }   
+
 #hero-text3 {
     font-family: 'Special Elite', cursive;
     color: white;
     z-index:1;
-    position: relative;
-    top:20%;
-    left: 20%;
+    position: absolute;
+    top:75%;
+    left: 40%;
 }   
 
 
