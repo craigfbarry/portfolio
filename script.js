@@ -16,10 +16,10 @@ $(document).ready(function () {
         ];
         
         const headerTag = $("<header>");
-        const portfolioHeader = $("<h3>");
+        const portfolioHeader = $("<h2>");
         const portfolioContent= $("<div>");
         
-        headerTag.addClass("row text-center text-align-middle");
+        headerTag.addClass("row py-sm-5 mb-lg-5 text-center text-align-middle");
         portfolioHeader.addClass("col my-4").text("Portfolio");
         $("#content").append((headerTag).append(portfolioHeader));
         portfolioContent.addClass("row text-center mb-5");
@@ -35,10 +35,6 @@ $(document).ready(function () {
         }
     });
 
-    $("#about").on("click", function(){
-        $("#content").empty();
-        console.log("about me clicked");
-    });
 
 
     $("#resume").on("click", function(){
@@ -48,6 +44,10 @@ $(document).ready(function () {
         $("#content").append(resumeContent);
 
         resumeContent.html("<embed src='assets/resume.pdf' type='application/pdf' height='1000px' width='100%'>");
+    });
+
+    $("#about-button").on("click", function(){
+
     });
 
 

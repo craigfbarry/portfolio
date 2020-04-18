@@ -10,7 +10,7 @@ body {
 }
 
 li:hover    {
- background-color: rgb(62, 145, 99);
+ background-color: rgb(20, 124, 43);
  color: rgb(7, 48, 1);
  font-weight: bolder;
  
@@ -27,10 +27,13 @@ li      {
 
 }
 
+
+
 .hero-text {
     font-family: 'Special Elite', cursive;
     color: white;
-    position: absolute;
+    z-index:1;
+    position: relative;
     top:20%;
     left: 30%;
 }   
