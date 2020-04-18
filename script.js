@@ -33,7 +33,7 @@ $(document).ready(function () {
             const project = $("<div>");
             project.addClass("col-md-6 col-lg-4 px-0 px-md-4");
             project.html("<a href=" + projectDetails[i].projectURL + " target='_blank'><img src=" + projectDetails[i].imageSource + " alt=" + projectDetails[i].imageAlt +  " width=100%>"
-            + "<p class='pt-4 pb-5 pb-md-5'>" + projectDetails[i].description + "</p></a><a href=" + projectDetails[i].githubURL + " target='_blank'><p>Github Link</p></a>");
+            + "<p class='pt-4'>" + projectDetails[i].description + "</p></a><a href=" + projectDetails[i].githubURL + " target='_blank'><p class='pb-4'>Github Link</p></a>");
             portfolioContent.append(project);
         }
     });
@@ -50,6 +50,8 @@ $(document).ready(function () {
     });
 
     $("#about-button").on("click", function(){
+        window.location.hash = '#about';
+        window.location.reload(true);
 
     });
 
