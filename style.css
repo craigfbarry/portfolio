@@ -1,10 +1,4 @@
 
-/*
-
-font-family: 'Homemade Apple', cursive;
-font-family: 'Special Elite', cursive;
-font-family: 'Freckle Face', cursive;
-*/
 body {
     background-color: rgb(19, 19, 20);
 }
@@ -16,9 +10,11 @@ li:hover    {
  
 }   
 li      {
-   
     font-family: 'Special Elite', cursive;
-    
+}
+h2      {
+    color: white;
+    font-family: 'Special Elite', cursive; 
 }
 
 #logo   {
@@ -45,7 +41,7 @@ li      {
     z-index:1;
     max-width: 40%;
     position: absolute;
-    top:40%;
+    top:37%;
 
     left: 50%;
 }   
@@ -57,11 +53,19 @@ li      {
     max-width: 30%;
     position: absolute;
     top:75%;
-    left: 10%;
+    left: 8%;
 }   
 
 
 #content {
     background-color: rgb(19, 19, 20);
     color: rgb(80, 207, 91);
+}
+
+.rounded-circle {
+    filter: grayscale();
+
+}
+.rounded-circle:hover{
+    filter: none;
 }

@@ -42,6 +42,8 @@ $(document).ready(function () {
 
     $("#resume").on("click", function(){
         $("#content").empty();
+        
+
         const resumeContent= $("<div>");
         resumeContent.addClass("justify-content-center my-5 py-5 px-0");
         $("#content").append(resumeContent);
