@@ -11,7 +11,7 @@ body {
 
 li:hover    {
  background-color: rgb(20, 124, 43);
- color: rgb(7, 48, 1);
+ 
  font-weight: bolder;
  
 }   
@@ -36,26 +36,28 @@ li      {
     z-index:1;
     position: absolute;
     top: 10%;
-    left: 50%;
+    left: 10%;
 }   
 
 #hero-text2 {
     font-family: 'Special Elite', cursive;
     color: white;
     z-index:1;
+    max-width: 40%;
     position: absolute;
     top:40%;
 
-    left: 20%;
+    left: 50%;
 }   
 
 #hero-text3 {
     font-family: 'Special Elite', cursive;
     color: white;
     z-index:1;
+    max-width: 30%;
     position: absolute;
     top:75%;
-    left: 40%;
+    left: 10%;
 }   
 
 

@@ -46,7 +46,7 @@ $(document).ready(function () {
         resumeContent.addClass("justify-content-center my-5 py-5 px-0");
         $("#content").append(resumeContent);
 
-        resumeContent.html("<embed src='assets/resume.pdf' type='application/pdf' height='1500px' width='100%'>");
+        resumeContent.html("<embed src='assets/resume.pdf' type='application/pdf' height='1000px' width='100%'>");
     });
 
     $("#about-button").on("click", function(){
