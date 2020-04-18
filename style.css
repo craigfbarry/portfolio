@@ -5,6 +5,9 @@ font-family: 'Homemade Apple', cursive;
 font-family: 'Special Elite', cursive;
 font-family: 'Freckle Face', cursive;
 */
+body {
+    background-color: rgb(19, 19, 20);
+}
 
 li:hover    {
  background-color: rgb(62, 145, 99);
