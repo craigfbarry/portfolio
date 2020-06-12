@@ -6,16 +6,24 @@ $(document).ready(function () {
         $("#content").empty();
 
         const projectDetails = [
-
+            {imageSource:"assets/wuber.png",imageAlt:"Wuber",description:"Wuber database Project",
+            githubURL:"https://github.com/craigfbarry/WUber",
+            projectURL:"https://wuber-wines.herokuapp.com/"},
             {imageSource:"assets/nasa-slack.png",imageAlt:"NASA-slack",description:"NASA/Slack API Project",
             githubURL:"https://github.com/borucltd/patient0",
-            projectURL:"https://lnxsa.com"},
+            projectURL:"https://lnxsa.com"},            
+            {imageSource:"assets/team-profile-generator.png",imageAlt:"Team-profile-generator",description:"Team Profile Generator",
+            githubURL:"https://github.com/craigfbarry/team-profile-generator",
+            projectURL:""},
             {imageSource:"assets/weather-dashboard.png",imageAlt:"Weather-Dashboard",description:"Weather API Dashboard",
             githubURL:"https://github.com/craigfbarry/weather-dashboard",
             projectURL:"https://craigfbarry.github.io/weather-dashboard"},
+            {imageSource:"assets/note-taker.png",imageAlt:"Note-Taker",description:"Note Taker",
+            githubURL:"https://github.com/craigfbarry/note-taker",
+            projectURL:"https://immense-springs-98803.herokuapp.com/"},
             {imageSource:"assets/password-generator.png",imageAlt:"Password-Generator",description:"Password Generator",
             githubURL:"https://github.com/craigfbarry/password-generator",
-            projectURL:"https://craigfbarry.github.io/password-generator/"},
+            projectURL:"https://craigfbarry.github.io/password-generator/"}
         ];
         
         const headerTag = $("<header>");
